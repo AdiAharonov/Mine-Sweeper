@@ -16,7 +16,7 @@ body {
 
 .board {
     position: absolute;
-    top: 30%;
+    top: 33%;
     border: steelblue solid 4px;
 }
 
@@ -96,7 +96,7 @@ button:hover {
     justify-content: center;
     align-items: center;
     position: absolute;
-    top: 22%;
+    top: 23%;
     
     padding: 5px;
     font-size: 25px;      
@@ -110,14 +110,14 @@ button:hover {
 
   .smiley {
       position: absolute;
-      top: 22%;
+      top: 23%;
       margin-left: 80px;
       font-size: 35px;
   }
 
   .hint {
       position: absolute;
-      top: 23%;
+      top: 24.5%;
       margin-left: -90px;
       padding: 5px;
 
@@ -125,7 +125,7 @@ button:hover {
 
   .hints {
       position: absolute;
-      top: 23%;
+      top: 24%;
       margin-left: -180px;
       font-size: 30px;
   }
