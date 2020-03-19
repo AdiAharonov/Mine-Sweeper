@@ -1,0 +1,146 @@
+body {
+    display: flex;
+    background-color: #eee;
+    align-items: center;
+    justify-content: center;
+}
+
+.cell {
+    border: rgb(4, 25, 85) solid 1px;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    cursor: pointer;
+    box-shadow: inset -1px 1px 10px 1px rgba(7, 17, 59, 0.75);
+}
+
+.board {
+    position: absolute;
+    top: 30%;
+    border: steelblue solid 4px;
+}
+
+.btns {
+    position: absolute;
+    top: 15%;
+}
+
+button {
+    font-size: 20px;
+    font-style: italic;
+    padding: 10px;
+    border: steelblue solid 2px;
+    border-radius: 10px;
+    outline: none;
+}
+
+button:hover {
+    background-color: rgb(48, 104, 150);
+}
+
+.cell:hover {
+    background-color: rgb(175, 219, 255);
+}
+
+.showCell {
+    font-size: 25px;
+    font-weight: bold;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    background-color: rgb(200, 202, 204);
+    border: rgb(200, 202, 204) solid 1px;
+
+}
+
+.gameOver {
+    position: absolute;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    width: 200px;
+    height: 100px;
+    background-color: rgba(95, 102, 121, 0.692);
+    top: 30%;
+    left: 40%;
+  }
+  p {
+    color: rgb(255, 255, 255);
+  }
+  .gameOver button {
+      padding: 10px;
+  }
+
+  .win {
+    position: absolute;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    width: 200px;
+    height: 100px;
+    background-color: rgba(95, 102, 121, 0.692);
+    top: 30%;
+    left: 40%;
+  }
+  p {
+    color: rgb(255, 255, 255);
+  }
+  .gameOver button {
+      padding: 10px;
+  }
+  
+  .timer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 22%;
+    
+    padding: 5px;
+    font-size: 25px;      
+    height: 40px;
+    width: 80px;
+    border: steelblue solid 1px;
+    border-radius: 20px;
+    background-color: rgb(155, 165, 255);
+    
+  }
+
+  .smiley {
+      position: absolute;
+      top: 22%;
+      margin-left: 80px;
+      font-size: 35px;
+  }
+
+  .hint {
+      position: absolute;
+      top: 23%;
+      margin-left: -90px;
+      padding: 5px;
+
+  }
+
+  .hints {
+      position: absolute;
+      top: 23%;
+      margin-left: -180px;
+      font-size: 30px;
+  }
+
+  .hintMsg {
+      display: none;
+      align-items: center;
+      justify-content: center;
+      height: 50px;
+      width: 200px;
+      font-size: 20px;
+      font-weight: bold;
+      background-color: rgb(48, 60, 77);
+      border-radius: 15px;
+      position: absolute;
+      top: 50%;
+
+  }
